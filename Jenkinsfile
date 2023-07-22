@@ -15,6 +15,7 @@ pipeline {
             steps {
                 echo "build"
                 sh '''
+                chmod 777 ./gradlew ./gradlew.bat
                 ./gradlew build
                 '''
             }
