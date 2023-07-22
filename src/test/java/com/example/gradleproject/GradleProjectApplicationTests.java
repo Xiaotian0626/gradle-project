@@ -8,7 +8,7 @@ class GradleProjectApplicationTests {
 
     @Test
     void contextLoads() {
-        System.out.println("ok");
+        System.out.println("unit test");
     }
 
 }
